@@ -10,14 +10,12 @@ router.get("/", function(req, res){
  
 })
 
-router.post("api/burgers"){
+router.post("api/burgers", (req, res) => {
 
+})
 
-}
+router.put("api/burger/id", (req,res) => {
 
-router.put("api/burger/id", function(req,res)){
-
-
-}
+})
 
 module.exports = router
